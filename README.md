@@ -26,7 +26,7 @@ In addition, the terms in the following apply:
 [RELEASE NOTES AND DISCLAIMERS](./RELEASE_NOTES_AND_DISCLAIMERS.md).
 
 ## Documentation
-Visit the project's [Documentation page](https://maplib.readthedocs.io/en/latest/) to access the online version of the full documentation of this library.
+Visit the project's [Documentation page](https://ad-map-access.readthedocs.io/en/latest/) to access the online version of the full documentation of this library.
 
 ## Releases <a name="releases"></a>
 #### Release 1.0.0 <a name="release_1"></a>
