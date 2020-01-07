@@ -1,4 +1,4 @@
-site_name: MapLib
+site_name: ad_map_access
 repo_url: https://github.com/carla-simulator/map
 docs_dir: doc
 edit_uri: 'edit/master/doc/'
@@ -16,8 +16,8 @@ nav:
   - Routes: ad_map_access/HLD_Routes.md
   - Security: ad_map_access/HLD_Security.md
 - Doxygen: 
-  - Datatypes: 'https://maplib.readthedocs.io/en/latest/ad_physics/apidoc/html/index.html' 
-  - Library: 'https://maplib.readthedocs.io/en/latest/ad_map_access/apidoc/html/index.html'
+  - Datatypes: 'https://ad-map-access.readthedocs.io/en/latest/ad_physics/apidoc/html/index.html' 
+  - Library: 'https://ad-map-access.readthedocs.io/en/latest/ad_map_access/apidoc/html/index.html'
 - Building:
   - BUILDING.md
 
