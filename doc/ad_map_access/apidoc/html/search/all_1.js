@@ -40,7 +40,7 @@ var searchData=
   ['appendroadsegmenttoroute',['appendRoadSegmentToRoute',['../namespacead_1_1map_1_1route.html#aeaed3008f50de48003720cc5cd3246a6',1,'ad::map::route']]],
   ['applicabletrafficlights',['applicableTrafficLights',['../classad_1_1map_1_1intersection_1_1Intersection.html#a80f919ce3c98362f03d6758bb62a7537',1,'ad::map::intersection::Intersection']]],
   ['approxaltitude',['approxAltitude',['../namespacead_1_1map_1_1point.html#a9dc736e297e1a1c13b031f7a6bcb7016',1,'ad::map::point']]],
-  ['areattributesequal',['areAttributesEqual',['../namespacead_1_1map_1_1restriction.html#abc0cbda716d2920722eaef60aeed71d8',1,'ad::map::restriction::areAttributesEqual(RangeAttribute const &amp;left, RangeAttribute const &amp;right)=delete'],['../namespacead_1_1map_1_1restriction.html#a6e798a2ccb0a822d3c7e052b84a0abef',1,'ad::map::restriction::areAttributesEqual(SpeedLimit const &amp;left, SpeedLimit const &amp;right)']]],
+  ['areattributesequal',['areAttributesEqual',['../namespacead_1_1map_1_1restriction.html#a3867bae50a4954bbc1a1996a9a3d9052',1,'ad::map::restriction']]],
   ['autoconnect',['autoConnect',['../classad_1_1map_1_1access_1_1Factory.html#abe9a2037c398ea8f47dbe9820f1421bc',1,'ad::map::access::Factory']]],
   ['config',['config',['../namespacead_1_1map_1_1config.html',1,'ad::map']]],
   ['intersection',['intersection',['../namespacead_1_1map_1_1intersection.html',1,'ad::map']]],

@@ -104,14 +104,14 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:aab3d4988e1cd3a6fc9a4f5cfc04194df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aab3d4988e1cd3a6fc9a4f5cfc04194df"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#aab3d4988e1cd3a6fc9a4f5cfc04194df">Ptr</a> = std::shared_ptr&lt; <a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html">CoordinateTransform</a> &gt;</td></tr>
-<tr class="memdesc:aab3d4988e1cd3a6fc9a4f5cfc04194df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smart pointer to the object. <br /></td></tr>
-<tr class="separator:aab3d4988e1cd3a6fc9a4f5cfc04194df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac944ff6cf0c943a831700fc160b100d0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac944ff6cf0c943a831700fc160b100d0"></a>
-using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ac944ff6cf0c943a831700fc160b100d0">ConstPtr</a> = std::shared_ptr&lt; <a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html">CoordinateTransform</a> const  &gt;</td></tr>
-<tr class="memdesc:ac944ff6cf0c943a831700fc160b100d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smart pointer to the object. <br /></td></tr>
-<tr class="separator:ac944ff6cf0c943a831700fc160b100d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5803864993ca2957a7f52f7ea304e5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5803864993ca2957a7f52f7ea304e5a"></a>
+typedef std::shared_ptr&lt; <a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html">CoordinateTransform</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ad5803864993ca2957a7f52f7ea304e5a">Ptr</a></td></tr>
+<tr class="memdesc:ad5803864993ca2957a7f52f7ea304e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smart pointer to the object. <br /></td></tr>
+<tr class="separator:ad5803864993ca2957a7f52f7ea304e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c809638b4c7e8daa060964bede1da45"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c809638b4c7e8daa060964bede1da45"></a>
+typedef std::shared_ptr&lt; <a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html">CoordinateTransform</a> const  &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#a0c809638b4c7e8daa060964bede1da45">ConstPtr</a></td></tr>
+<tr class="memdesc:a0c809638b4c7e8daa060964bede1da45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Smart pointer to the object. <br /></td></tr>
+<tr class="separator:a0c809638b4c7e8daa060964bede1da45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -146,38 +146,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae08ba3122aa45c2163d565dcbf83cef0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ae08ba3122aa45c2163d565dcbf83cef0">ECEF2ENU</a> (const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;pt) const </td></tr>
 <tr class="memdesc:ae08ba3122aa45c2163d565dcbf83cef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#ae08ba3122aa45c2163d565dcbf83cef0">More...</a><br /></td></tr>
 <tr class="separator:ae08ba3122aa45c2163d565dcbf83cef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e37451537fe61765675c0e9f8d7b32"><td class="memTemplParams" colspan="2">template&lt;typename SourceC , typename TargetC &gt; </td></tr>
-<tr class="memitem:a92e37451537fe61765675c0e9f8d7b32"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#a92e37451537fe61765675c0e9f8d7b32">convert</a> (const SourceC &amp;x, TargetC &amp;y) const =delete</td></tr>
-<tr class="memdesc:a92e37451537fe61765675c0e9f8d7b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#a92e37451537fe61765675c0e9f8d7b32">More...</a><br /></td></tr>
-<tr class="separator:a92e37451537fe61765675c0e9f8d7b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cd9397de3e33dfcc0a2742f105d745f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#a6cd9397de3e33dfcc0a2742f105d745f">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:a6cd9397de3e33dfcc0a2742f105d745f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#a6cd9397de3e33dfcc0a2742f105d745f">More...</a><br /></td></tr>
+<tr class="separator:a6cd9397de3e33dfcc0a2742f105d745f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bad98b70fc036ce2e7263a35e308078"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#a9bad98b70fc036ce2e7263a35e308078">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:a9bad98b70fc036ce2e7263a35e308078"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#a9bad98b70fc036ce2e7263a35e308078">More...</a><br /></td></tr>
+<tr class="separator:a9bad98b70fc036ce2e7263a35e308078"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5847088c64c77fd0f542fd0927c8a97a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#a5847088c64c77fd0f542fd0927c8a97a">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:a5847088c64c77fd0f542fd0927c8a97a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#a5847088c64c77fd0f542fd0927c8a97a">More...</a><br /></td></tr>
+<tr class="separator:a5847088c64c77fd0f542fd0927c8a97a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae72d302caab6260f3cc2c9ef21f7674a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ae72d302caab6260f3cc2c9ef21f7674a">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:ae72d302caab6260f3cc2c9ef21f7674a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#ae72d302caab6260f3cc2c9ef21f7674a">More...</a><br /></td></tr>
+<tr class="separator:ae72d302caab6260f3cc2c9ef21f7674a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae20e43cbf1b02608f31eb27da17cea97"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ae20e43cbf1b02608f31eb27da17cea97">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:ae20e43cbf1b02608f31eb27da17cea97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#ae20e43cbf1b02608f31eb27da17cea97">More...</a><br /></td></tr>
+<tr class="separator:ae20e43cbf1b02608f31eb27da17cea97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5b296ac2e76648559b8275e3e350e39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#ae5b296ac2e76648559b8275e3e350e39">convert</a> (const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;y) const </td></tr>
+<tr class="memdesc:ae5b296ac2e76648559b8275e3e350e39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert point between coordinate systems.  <a href="#ae5b296ac2e76648559b8275e3e350e39">More...</a><br /></td></tr>
+<tr class="separator:ae5b296ac2e76648559b8275e3e350e39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af36a55db72ad4a2942fc5abe81bc93f3"><td class="memTemplParams" colspan="2">template&lt;typename SourceC , typename TargetC &gt; </td></tr>
 <tr class="memitem:af36a55db72ad4a2942fc5abe81bc93f3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classad_1_1map_1_1point_1_1CoordinateTransform.html#af36a55db72ad4a2942fc5abe81bc93f3">convert</a> (const std::vector&lt; SourceC &gt; &amp;xs, std::vector&lt; TargetC &gt; &amp;ys) const </td></tr>
 <tr class="memdesc:af36a55db72ad4a2942fc5abe81bc93f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert points between coordinate systems.  <a href="#af36a55db72ad4a2942fc5abe81bc93f3">More...</a><br /></td></tr>
 <tr class="separator:af36a55db72ad4a2942fc5abe81bc93f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54e202509fd4f635bc59cf50db6ed697"><td class="memTemplParams" colspan="2"><a class="anchor" id="a54e202509fd4f635bc59cf50db6ed697"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:a54e202509fd4f635bc59cf50db6ed697"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;y) const </td></tr>
-<tr class="separator:a54e202509fd4f635bc59cf50db6ed697"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a676c64a1d351e5b9cc0565944c1b051d"><td class="memTemplParams" colspan="2"><a class="anchor" id="a676c64a1d351e5b9cc0565944c1b051d"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:a676c64a1d351e5b9cc0565944c1b051d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;y) const </td></tr>
-<tr class="separator:a676c64a1d351e5b9cc0565944c1b051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a032b0548fbe33efc7b6628ce37f29dc8"><td class="memTemplParams" colspan="2"><a class="anchor" id="a032b0548fbe33efc7b6628ce37f29dc8"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:a032b0548fbe33efc7b6628ce37f29dc8"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;y) const </td></tr>
-<tr class="separator:a032b0548fbe33efc7b6628ce37f29dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a970f2c695b5ddd1ffd229afe520422e7"><td class="memTemplParams" colspan="2"><a class="anchor" id="a970f2c695b5ddd1ffd229afe520422e7"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:a970f2c695b5ddd1ffd229afe520422e7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;y) const </td></tr>
-<tr class="separator:a970f2c695b5ddd1ffd229afe520422e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe53088f11ff649c5eb5fb068998a183"><td class="memTemplParams" colspan="2"><a class="anchor" id="abe53088f11ff649c5eb5fb068998a183"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:abe53088f11ff649c5eb5fb068998a183"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;y) const </td></tr>
-<tr class="separator:abe53088f11ff649c5eb5fb068998a183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acecb9dec394e5352a9f1c90b105a5af5"><td class="memTemplParams" colspan="2"><a class="anchor" id="acecb9dec394e5352a9f1c90b105a5af5"></a>
-template&lt;&gt; </td></tr>
-<tr class="memitem:acecb9dec394e5352a9f1c90b105a5af5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>convert</b> (const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;x, <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;y) const </td></tr>
-<tr class="separator:acecb9dec394e5352a9f1c90b105a5af5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -224,11 +214,9 @@ Static Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a92e37451537fe61765675c0e9f8d7b32"></a>
+<a class="anchor" id="a6cd9397de3e33dfcc0a2742f105d745f"></a>
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename SourceC , typename TargetC &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -236,13 +224,13 @@ template&lt;typename SourceC , typename TargetC &gt; </div>
         <tr>
           <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
           <td>(</td>
-          <td class="paramtype">const SourceC &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">TargetC &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -253,7 +241,257 @@ template&lt;typename SourceC , typename TargetC &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert point between coordinate systems. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SourceC</td><td>Source coordinate system. </td></tr>
+    <tr><td class="paramname">TargetC</td><td>Target coordinate system. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Source point. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>Target point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9bad98b70fc036ce2e7263a35e308078"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert point between coordinate systems. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SourceC</td><td>Source coordinate system. </td></tr>
+    <tr><td class="paramname">TargetC</td><td>Target coordinate system. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Source point. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>Target point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a5847088c64c77fd0f542fd0927c8a97a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert point between coordinate systems. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SourceC</td><td>Source coordinate system. </td></tr>
+    <tr><td class="paramname">TargetC</td><td>Target coordinate system. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Source point. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>Target point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae72d302caab6260f3cc2c9ef21f7674a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1GeoPoint.html">GeoPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert point between coordinate systems. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SourceC</td><td>Source coordinate system. </td></tr>
+    <tr><td class="paramname">TargetC</td><td>Target coordinate system. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Source point. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>Target point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae20e43cbf1b02608f31eb27da17cea97"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convert point between coordinate systems. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SourceC</td><td>Source coordinate system. </td></tr>
+    <tr><td class="paramname">TargetC</td><td>Target coordinate system. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">x</td><td>Source point. </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">y</td><td>Target point. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ae5b296ac2e76648559b8275e3e350e39"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ad::map::point::CoordinateTransform::convert </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structad_1_1map_1_1point_1_1ENUPoint.html">ENUPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structad_1_1map_1_1point_1_1ECEFPoint.html">ECEFPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
